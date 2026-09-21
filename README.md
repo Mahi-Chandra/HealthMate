@@ -10,6 +10,9 @@ The app combines user input tracking with intelligent health analysis to provide
 - 🗃️Data Persistence: All data stored in SQLite database
 - 💻User-Friendly Interface: Built with Streamlit for easy navigation
 
+## APP FEATURES ⚡️
+- 
+
 ## TECH STACK 🛠️
 - Frontend: Streamlit (Python web framework)
 - Backend: Python
