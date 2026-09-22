@@ -14,7 +14,7 @@ with open('bg.png', 'rb') as img_file:
     img_base64 = base64.b64encode(img_file.read()).decode()
 
 async def get_health_insights(weight, height, water, steps, mood, calories):
-    api_key = os.getenv("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")
+    api_key = os.getenv("") #YOUR API KEY HERE
     if not api_key:
         return None
     
