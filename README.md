@@ -1,4 +1,4 @@
-# 🏥 HealthMate - Your Personal Health Companion (in progress)
+# 🏥 HealthMate - Your Personal Health Companion
 HealthMate if a health tracking application built with Streamlit and SQLite. It allows users to log their daily health metrics (weight, height, water intake, steps walked, mood, calories consumed) and recieve personalized health advisory based on their data.
 
 The app combines user input tracking with intelligent health analysis to provide actionable health recommendations.
@@ -11,7 +11,13 @@ The app combines user input tracking with intelligent health analysis to provide
 - 💻User-Friendly Interface: Built with Streamlit for easy navigation
 
 ## APP FEATURES ⚡️
-- 
+- Graphical Statistics recording your health logs
+- Streak system on calendar
+- Daily calorie burner logger
+- AI health analysis using Anthropic API key integration
+- Weekly tracker
+- BMI calculator
+- Daily health advisory
 
 ## TECH STACK 🛠️
 - Frontend: Streamlit (Python web framework)
@@ -26,7 +32,8 @@ The app combines user input tracking with intelligent health analysis to provide
 ├── models.py           
 ├── config.py            
 ├── requirements.txt    
-├── README.md           
+├── README.md
+├── bg.png        
 └── healthmate.db
 ```       
 
