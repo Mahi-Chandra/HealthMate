@@ -37,7 +37,7 @@ Provide insights in a friendly, motivating tone. Focus on actionable advice. Kee
 
     try:
         response = await st.session_state.async_client.messages.create(
-            model="claude-opus-4-1",
+            model="claude-haiku-4-5-20251001",
             max_tokens=300,
             messages=[{"role": "user", "content": prompt}]
         )
@@ -1003,7 +1003,7 @@ Daily Data:
 Provide insights in a friendly, motivating tone. Focus on actionable advice. Keep it concise (2-3 sentences max)."""
 
                     message = client.messages.create(
-                        model="claude-opus-4-1",
+                        model="claude-haiku-4-5-20251001",
                         max_tokens=300,
                         messages=[{"role": "user", "content": prompt}]
                     )

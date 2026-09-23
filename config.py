@@ -22,7 +22,4 @@ HEALTH_ADVISORY_MESSAGES={"underweight":("Your BMI is in underweight range. Focu
                           "low_water_intake":("Your water intake is below the recommended daily goal. Increase your water consumption to stay hydrated and support overall health."),
                           "low_steps":("Your step count is below the recommended daily goal. Consider incorporating more physical activity into your routine to meet your step goal and improve overall fitness.")}
 
-
-#GENERAL HEALTH DISCLAIMER
-
-HEALTH_DISCLAIMER=("This chatbot provides general health information and is " "not a substitute for professional medical advice, diagnosis, or treatment." "Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition." "consult a healthcare professional before making any changes to your diet, exercise routine, or health regimen." "The information provided by this chatbot is for educational purposes only and should not be relied upon for medical decisions.")
+HEALTH_DISCLAIMER=("This chatbot provides general health information and is not a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition. Consult a healthcare professional before making any changes to your diet, exercise routine, or health regimen. The information provided by this chatbot is for educational purposes only and should not be relied upon for medical decisions.")
