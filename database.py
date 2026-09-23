@@ -192,10 +192,8 @@ def seed_mock_data():
     user_id = add_user("Mahi", "mahi@gmail.com", "123456")
     print(f"Mock user created with user_id: {user_id}")
 
-    # Mock health data for the past 7 days
     today = datetime.now().date()
     mock_data = [
-        # (days_ago, weight, height, water, steps, mood, calories)
         (6, 66.2, 172, 1500, 7200,  "😤 Stressed", 1520),
         (5, 65.8, 172, 1800, 8500,  "😐 Neutral",  1750),
         (4, 66.5, 172, 2000, 9200,  "😐 Neutral",  1980),
